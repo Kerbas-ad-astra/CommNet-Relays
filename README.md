@@ -1,6 +1,6 @@
 #AntennaRange Relays
 
-Ever wanted to set up a relay to begin your AntennaRange networks...and get money for it?  Your wish is my command, with the **AntennaRange Relays** contract pack!
+Ever wanted to send relays to begin your AntennaRange networks...and get money for it?  Your wish will be fulfilled with the **AntennaRange Relays** contract pack!
 
 ##Features / Parts / Gallery
 
