@@ -4,7 +4,7 @@ Ever wanted to send relays to begin your AntennaRange networks...and get money f
 
 ##Features / Parts / Gallery
 
-**AntennaRange Relays** is a contract pack for Contract Configurator which gives you up to one (1) contract for each body in the solar system (besides the homeworld, of course).  The contract is to send a satellite with an appropriate dish into an orbit low enough that surface missions can use the whip antenna instead of having to pack a big dish (so long as the relay is overhead, of course).  Missions to your homeworld's moons are required to use a DTS-M1, while missions to other planets or moons get the Communotron 88-88.
+**AntennaRange Relays** is a contract pack for Contract Configurator which gives you contracts for each body in the solar system (besides the homeworld, of course).  The contract is to send a satellite with an appropriate dish into an orbit low enough that surface missions (or atmospheric missions, in the case of gas giants) can use the whip antenna instead of having to pack a big dish (so long as the relay is overhead, of course).  Missions to your homeworld's moons are required to use a DTS-M1, while missions to other planets or moons get the Communotron 88-88.
 
 The contracts are generated based on the lists of planets and moons in your solar system, so you can install Outer Planets or Real Solar System or whatever you want, and the contracts will automatically adjust themselves accordingly.
 
@@ -34,7 +34,7 @@ None at this time.  If you find any, please let me know in the KSP thread or on 
 
 ##Roadmap
 
-At the moment, you only get one contract per non-homeworld body, and only then if you've never orbited them before.  Once you make orbit, that's it -- you can't get a contract for it (presumably, you could have deployed a relay then).  I'd like to fix this to be a more coverage or constellation-based system, but I don't think Contract Configurator supports that.  For a more interim solution, if there's a way to poll what kind of ships are in orbit around a planet at a given moment, that could work -- I'd make a contract around a body if there are, for example, fewer than four spacecraft with dishes in orbit around it.
+In the long run, it might be cool if the Contract Configurator system could track AntennaRange coverage like it does RemoteTech coverage.  Unless or until that happens, I'm interested in your input on better ways to track coverage. Right now I use the number of ships in orbit around a body as a proxy, figuring that four is the minimum required for total coverage, and so if you have fewer than four ships around a body, you might get a contract to place a relay.  (nightingale recently or is adding a feature to allow me to search each ship by parts, so that I can count how many ships you have with dishes on, but I'm not sure why you'd send a ship without an antenna if you're using AntennaRange, so I don't think the extra overhead is worth it.)  It would be *really* cool to suggest orbits, but I think I'd either have to "bake in" orbits for each planet (not happening, not general) or have to write a custom plugin (not happening anytime soon).
 
 ##Credits
 
@@ -42,4 +42,4 @@ Thanks to nightingale for Contract Configurator and toadicus for AntennaRange!
 
 ##License
 
-AntennaRange Relays is copyright 2015 Kerbas_ad_astra and released under the Apache 2.0 license.
+AntennaRange Relays is copyright 2015 Kerbas_ad_astra and released under the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0).
