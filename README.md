@@ -1,16 +1,16 @@
 #AntennaRange Relays
 
-Ever wanted to set up a relay to begin your AntennaRange networks...and get money for it?  Your wish is my command, with the **AntennaRange Relays** contract pack!
+Ever wanted to get money for setting up AntennaRange network relays?  Your dreams can come true with the **AntennaRange Relays** contract pack!
 
 ##Features / Parts / Gallery
 
-**AntennaRange Relays** is a contract pack for Contract Configurator which gives you up to one (1) contract for each body in the solar system (besides the homeworld, of course).  The contract is to send a satellite with an appropriate dish into an orbit low enough that surface missions can use the whip antenna instead of having to pack a big dish (so long as the relay is overhead, of course).  Missions to your homeworld's moons are required to use a DTS-M1, while missions to other planets or moons get the Communotron 88-88.
+**AntennaRange Relays** is a contract pack for Contract Configurator which gives you up to one (1) contract for each body in the solar system (besides the homeworld, of course).  The contract is to send a satellite with an appropriate dish into an orbit low enough that surface missions can use the whip antenna instead of having to pack a big dish (so long as a relay is overhead, of course).  Missions to your homeworld's moons or the inner planets (Duna/Mars) are required to use a DTS-M1, while missions to outer planets or moons get the Communotron 88-88.  You also have to have your tracking station upgraded to the appropriate level.
 
 The contracts are generated based on the lists of planets and moons in your solar system, so you can install Outer Planets or Real Solar System or whatever you want, and the contracts will automatically adjust themselves accordingly.
 
 ##Dependencies
 
-* AntennaRange Relays depends on [Contract Configurator](http://forum.kerbalspaceprogram.com/threads/101604-1-0-2-Contract-Configurator-v1-0-4-2015-05-08).
+* AntennaRange Relays depends on [Contract Configurator](http://forum.kerbalspaceprogram.com/threads/101604-1-0-2-Contract-Configurator-v1-0-4-2015-05-08), version 1.2.2 or later.
 
 ##Recommended addons
 
@@ -34,7 +34,7 @@ None at this time.  If you find any, please let me know in the KSP thread or on 
 
 ##Roadmap
 
-At the moment, you only get one contract per non-homeworld body, and only then if you've never orbited them before.  Once you make orbit, that's it -- you can't get a contract for it (presumably, you could have deployed a relay then).  I'd like to fix this to be a more coverage or constellation-based system, but I don't think Contract Configurator supports that.  For a more interim solution, if there's a way to poll what kind of ships are in orbit around a planet at a given moment, that could work -- I'd make a contract around a body if there are, for example, fewer than four spacecraft with dishes in orbit around it.
+I'm pretty happy with this set of contracts.  If you have suggestions, please 
 
 ##Credits
 
