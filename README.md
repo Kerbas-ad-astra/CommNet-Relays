@@ -2,11 +2,11 @@
 
 Ever wanted to get money for setting up AntennaRange network relays?  Your dreams can come true with the **AntennaRange Relays** contract pack!
 
-##Features / Parts / Gallery
+##Features
 
-**AntennaRange Relays** is a contract pack for Contract Configurator which gives you up to one (1) contract for each body in the solar system (besides the homeworld, of course).  The contract is to send a satellite with an appropriate dish into an orbit low enough that surface missions can use the whip antenna instead of having to pack a big dish (so long as a relay is overhead, of course).  Missions to your homeworld's moons or the inner planets (Duna/Mars) are required to use a DTS-M1, while missions to outer planets or moons get the Communotron 88-88.  You also have to have your tracking station upgraded to the appropriate level.
+**AntennaRange Relays** is a contract pack for Contract Configurator which gives you contracts for each body in the solar system (besides the homeworld, of course).  The contract is to send a satellite with an appropriate dish into an orbit low enough that surface missions can use the whip antenna instead of having to pack a big dish (so long as a relay is overhead, of course).  Missions to your homeworld's moons or the inner planets (Duna/Mars) are required to use a DTS-M1, while missions to outer planets or moons get the Communotron 88-88.  You also have to have your tracking station upgraded to the appropriate level.
 
-The contracts are generated based on the lists of planets and moons in your solar system, so you can install Outer Planets or Real Solar System or whatever you want, and the contracts will automatically adjust themselves accordingly.
+The contracts are generated based on the lists of planets and moons in your solar system, so you can install Outer Planets or Real Solar System or whatever you want, and the contracts will automatically adjust themselves accordingly.  (They will *not* adjust to whatever antennas you have installed, however.  You will need a Module Manager patch to OR together some more part validation checks for whatever antennas you want for the job.)
 
 ##Dependencies
 
@@ -26,7 +26,7 @@ From there, just unzip the "ContractPacks/AntennaRangeRelays" folder into your G
 
 ##Known and anticipated issues
 
-None at this time.  If you find any, please let me know in the KSP thread or on GitHub's issue tracker!
+None at this time.  If you find any, please let me know in the KSP thread or on the GitHub repo's [issue tracker](https://github.com/Kerbas-ad-astra/AntennaRange-Relays/issues)!
 
 ##Version history and changelog
 
@@ -34,7 +34,7 @@ None at this time.  If you find any, please let me know in the KSP thread or on 
 
 ##Roadmap
 
-I'm pretty happy with this set of contracts.  If you have suggestions, please 
+I'm pretty happy with this set of contracts, though it might be cool if nightingale implemented a coverage-checking feature like RemoteTech has.  As it is, I use the number of vessels in orbit as a proxy -- four is the minimum to get full coverage, so if you've got four ships in orbit around a body, I figure you have coverage that's good enough and the config won't generate contracts for that body.  If you have suggestions, please leave them here or raise an issue on the GitHub repo!
 
 ##Credits
 
@@ -42,4 +42,4 @@ Thanks to nightingale for Contract Configurator and toadicus for AntennaRange!
 
 ##License
 
-AntennaRange Relays is copyright 2015 Kerbas_ad_astra and released under the Apache 2.0 license.
+AntennaRange Relays is copyright 2015 Kerbas_ad_astra and released under the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0).
