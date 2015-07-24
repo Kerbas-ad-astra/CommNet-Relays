@@ -28,7 +28,7 @@ From there, just unzip the "ContractPacks/AntennaRangeRelays" folder into your G
 
 ##Known issues and limitations
 
-You can harvest money by setting up one relay around a planet, and switching to that relay when more contracts come up to put relays around that planet. Is there a way to set the "must be a new ship after accepting the contract" requirement for a Contract Configurator pack?  On the other hand, if a contact comes up while there's a ship on its way to a planet, I don't want to prevent you from getting credit for it.  What are your thoughts?
+You can harvest money by setting up one relay around a planet, and switching to that relay when more contracts come up to put relays around that planet. Is there a way to set the "must be a new ship after accepting the contract" requirement for a Contract Configurator pack?  On the other hand, if a contract comes up while there's a qualifying mission on its way to a planet, I don't want to prevent you from getting credit for it.  What are your thoughts?
 
 Also, these contracts were written with the three stock antennas in mind only.  You will need a Module Manager patch to add some more part validation checks for whatever antennas you want for the job, like so:
 
@@ -51,13 +51,15 @@ If you find any other issues, please let me know in the KSP thread or on the Git
 
 ##Version history and changelog
 
-* 2015 XX: Initial release.
+* 2015 07 26: Initial release.
 
 ##Roadmap
 
 I'm pretty happy with this set of contracts, though it might be cool if nightingale implemented a coverage-checking feature like RemoteTech has.  As it is, I use the number of vessels in orbit as a proxy -- four is the minimum to get full coverage, so if you've got four ships in low-enough orbit around a body, I figure you have coverage that's good enough and the config won't generate contracts for that body.
 
-If you have suggestions, please leave them here or raise an issue on the GitHub repo!
+Of course, once stock has antenna ranges, I'll update these contracts to work with the new system.
+
+If you have other suggestions, please leave them here or raise an issue on the GitHub repo!
 
 ##Credits
 
