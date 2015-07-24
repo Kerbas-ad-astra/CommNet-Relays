@@ -22,7 +22,7 @@ In addition to the basic "relay around body X" contracts, there are a few extra 
 
 * CurseForge
 * KerbalStuff
-* GitHub
+* [GitHub](https://github.com/Kerbas-ad-astra/AntennaRange-Relays/releases)
 
 From there, just unzip the "ContractPacks/AntennaRangeRelays" folder into your GameData directory.
 
@@ -33,7 +33,7 @@ You can harvest money by setting up one relay around a planet, and switching to 
 Also, these contracts were written with the three stock antennas in mind only.  You will need a Module Manager patch to add some more part validation checks for whatever antennas you want for the job, like so:
 
 ```
-@CONTRACT_TYPE[AntennaRangeRelayWhatever] // You could use "AntennaRangeRelay*" to get all contract types at once, but they have different range needs.
+@CONTRACT_TYPE[AntennaRangeRelayWhatever] // You could use "AntennaRangeRelay*" to get all contract types at once, but they have different range needs, so think about where your antenna fits.  It's okay to put longer-range antennas in shorter-range missions, but definitely not vice-versa!
 {
 	@PARAMETER[Antennas]
 	{
@@ -59,7 +59,7 @@ I'm pretty happy with this set of contracts, though it might be cool if nighting
 
 Of course, once stock has antenna ranges, I'll update these contracts to work with the new system.
 
-If you have other suggestions, please leave them here or raise an issue on the GitHub repo!
+If you have other suggestions, please leave them here or raise an [**issue**](https://github.com/Kerbas-ad-astra/AntennaRange-Relays/issues) on the GitHub repo!
 
 ##Credits
 
@@ -67,4 +67,4 @@ Thanks to nightingale for Contract Configurator and toadicus for AntennaRange!
 
 ##License
 
-AntennaRange Relays is copyright 2015 Kerbas_ad_astra and released under the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0).
+AntennaRange Relays is copyright 2015 Kerbas_ad_astra.  Contract configuration files are released under the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0).  All other rights (e.g. the AntennaRange Relays logo) reserved.
