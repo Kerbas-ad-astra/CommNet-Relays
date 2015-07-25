@@ -51,9 +51,11 @@ If you find any other issues, please let me know in the KSP thread or on the Git
 
 ##Version history and changelog
 
-* 2015 07 26: Initial release.
+* 2015 07 24: Initial release.
 
 ##Roadmap
+
+As my schedule permits, I'll get this mod released on KerbalStuff and CurseForge in the near future.
 
 I'm pretty happy with this set of contracts, though it might be cool if nightingale implemented a coverage-checking feature like RemoteTech has.  As it is, I use the number of vessels in orbit as a proxy -- four is the minimum to get full coverage, so if you've got four ships in low-enough orbit around a body, I figure you have coverage that's good enough and the config won't generate contracts for that body.
 
