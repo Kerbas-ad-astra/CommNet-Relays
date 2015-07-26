@@ -2,6 +2,8 @@
 
 Ever wanted to get money for setting up AntennaRange network relays?  Your dreams can come true with the **AntennaRange Relays** contract pack!
 
+![AntennaRange Relays logo](https://raw.githubusercontent.com/Kerbas-ad-astra/AntennaRange-Relays/master/AntennaRangeRelaysLogo.png)
+
 ##Features
 
 **AntennaRange Relays** is a contract pack for Contract Configurator which gives you contracts for each body in the solar system (besides the homeworld, of course).  The contract is to send a satellite with an appropriate dish into an orbit low enough that surface missions can use the whip antenna instead of having to pack a big dish (so long as a relay is overhead, of course).  Missions to your homeworld's moons or the inner planets (Duna/Mars) are required to use a DTS-M1, while missions to outer planets or moons get the Communotron 88-88.  You also have to have your tracking station upgraded to the appropriate level.
@@ -12,7 +14,7 @@ In addition to the basic "relay around body X" contracts, there are a few extra 
 
 ##Dependencies
 
-* AntennaRange Relays depends on [**Contract Configurator**](http://forum.kerbalspaceprogram.com/threads/101604-1-0-2-Contract-Configurator-v1-0-4-2015-05-08), version 1.2.2 or later.
+* AntennaRange Relays depends on [**Contract Configurator**](http://forum.kerbalspaceprogram.com/threads/101604-1-0-2-Contract-Configurator-v1-0-4-2015-05-08), version 1.5.1 or later.
 
 ##Recommended addons
 
