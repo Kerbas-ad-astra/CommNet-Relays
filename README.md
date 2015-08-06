@@ -8,7 +8,7 @@ Ever wanted to get money for setting up AntennaRange network relays?  Your dream
 
 **AntennaRange Relays** is a contract pack for Contract Configurator which gives you contracts for each body in the solar system (besides the homeworld, of course).  The contract is to send a satellite with an appropriate dish into an orbit low enough that surface missions can use the whip antenna instead of having to pack a big dish (so long as a relay is overhead, of course).  Missions to your homeworld's moons or the inner planets (Duna/Mars) are required to use a DTS-M1, while missions to outer planets or moons get the Communotron 88-88.  You also have to have your tracking station upgraded to the appropriate level.
 
-The contracts are generated based on the lists of planets and moons in your solar system, so you can install Outer Planets or Real Solar System or whatever you want, and the contracts will automatically adjust themselves accordingly.  (Be aware that the contracts are based on stock AntennaRange ranges, which are in turn based on the stock solar system.  Outer Planets adjusts the 88-88 to have a longer range, but I don't know about RSS, for example.)
+The contracts are generated based on the lists of planets and moons in your solar system, so you can install Outer Planets or Real Solar System or whatever you want, and the contracts will automatically adjust themselves accordingly.  Be aware that the contracts are based on stock AntennaRange ranges, which are in turn based on the stock solar system.  Outer Planets adjusts the 88-88 to have a longer range, and RSS increases the range of everything (I submitted that patch, and I've also included a patch in AntennaRange Ranges starting in v1.1 to adjust contract ranges accordingly), but I don't know about anything else.
 
 In addition to the basic "relay around body X" contracts, there are a few extra contracts to help improve uptime around the network.  You may receive contracts to place relays in highly-inclined, highly-elliptical orbits around the gas giants, so that missions to their moons or in low orbits can stay in contact around them, as well as contracts to place relays in solar orbits to keep contact with probes going behind the Sun (and also the homeworld's parent body, if you're using an alternate solar system in which the homeworld is a moon).
 
@@ -55,6 +55,10 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 
 * 2015 07 24: Initial release.
 * 2015 07 25 (1.0.1): Added NewVessel parameter to missions, so each relay will have to be a newly-launched satellite.  Bumped up the maximum number of satellites from four to five (to give some redundancy).
+* 2015 08 XX (1.1): Moved altitude constraints into DATA nodes so that Module Manager can affect them more easily (as opposed to having magic numbers in both the orbit parameter and the target planet selection logic).
+	* Fixed some initial "Escape"/"Orbit" requirements -- they were referring to "Kerbin" specifically, now referring to the homeworld (RSS compatibility)
+	* These changes were made so that I could add a patch to adjust the altitude constraints for Real Solar System.
+	* Also updated comments on target planet selection logic to match the actual logic used.
 
 ##Roadmap
 
