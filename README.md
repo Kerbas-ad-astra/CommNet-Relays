@@ -55,9 +55,9 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 
 * 2015 07 24: Initial release.
 * 2015 07 25 (1.0.1): Added NewVessel parameter to missions, so each relay will have to be a newly-launched satellite.  Bumped up the maximum number of satellites from four to five (to give some redundancy).
-* 2015 08 XX (1.1): Moved altitude constraints into DATA nodes so that Module Manager can affect them more easily (as opposed to having magic numbers in both the orbit parameter and the target planet selection logic).
-	* Fixed some initial "Escape"/"Orbit" requirements -- they were referring to "Kerbin" specifically, now referring to the homeworld (RSS compatibility)
-	* These changes were made so that I could add a patch to adjust the altitude constraints for Real Solar System.
+* 2015 08 XX (1.1): RSS compatibility.
+	* Moved altitude constraints into DATA nodes so that Module Manager can affect them more easily (as opposed to having magic numbers in both the orbit parameter and the target planet selection logic).
+	* Fixed some initial "Escape"/"Orbit" requirements -- they were referring to "Kerbin" specifically, now referring to whatever the homeworld is.
 	* Also updated comments on target planet selection logic to match the actual logic used.
 
 ##Roadmap
