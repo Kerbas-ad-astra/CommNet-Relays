@@ -15,6 +15,7 @@ In addition to the basic "relay around body X" contracts, there are a few extra 
 ##Dependencies
 
 * AntennaRange Relays depends on [**Contract Configurator**](http://forum.kerbalspaceprogram.com/threads/101604-1-0-2-Contract-Configurator-v1-0-4-2015-05-08), version 1.5.1 or later.
+* You will need [**Module Manager**](http://forum.kerbalspaceprogram.com/index.php?/topic/50533-105-module-manager-2613-november-9th/) to patch the contracts for compatibility with other addons.
 
 ##Recommended addons
 
@@ -22,18 +23,18 @@ In addition to the basic "relay around body X" contracts, there are a few extra 
 
 ##Download and install
 
+* [**GitHub**](https://github.com/Kerbas-ad-astra/AntennaRange-Relays/releases)
 * CurseForge
 * KerbalStuff
-* [**GitHub**](https://github.com/Kerbas-ad-astra/AntennaRange-Relays/releases)
 
 From there, just unzip the "ContractPacks/AntennaRangeRelays" folder into your GameData directory.
 
 ##Known issues and limitations
 
-These contracts were written with the three stock antennas in mind only.  You will need a Module Manager patch to add some more part validation checks for whatever antennas you want for the job, like so:
+Each contract requires specific antenna parts -- the three stock antennas by default, and a few from some mods that I use or have used (Asteroid Day, Hangar, SSR Microsat, and USI Kolonization Systems) via some Module Manager patches.  I'm happy to accept more, but I will only ship patches for mods that ship "natively" with AntennaRange patches themselves and which have antennas whose ranges are long enough to be useful as relays.  If you want to add patches for more addons, you can make them like this (and feel free to share them in this thread):
 
 ```
-@CONTRACT_TYPE[AntennaRangeRelayWhatever] // You could use "AntennaRangeRelay*" to get all contract types at once, but they have different range needs, so think about where your antenna fits.  It's okay to put longer-range antennas in shorter-range missions, but definitely not vice-versa!
+@CONTRACT_TYPE[AntennaRangeRelayWhatever] // You could use "AntennaRangeRelay*" to get all contract types at once, but they have different range needs, so think about where your antenna fits.  It's okay to allow longer-range antennas to qualify for shorter-range missions, but definitely not vice-versa!
 {
 	@PARAMETER[Antennas]
 	{
@@ -60,6 +61,10 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 	* Fixed some initial "Escape"/"Orbit" requirements -- they were referring to "Kerbin" specifically, now referring to whatever the homeworld is.
 	* Also updated comments on target planet selection logic to match the actual logic used.
 	* Added a new "CoMoon" contract to be used when the homeworld is a moon.
+* 2015 12 14 (1.2): Antenna pack compatibility
+	* New patches that allow antennas from some addons (Asteroid Day, Hangar, SSR Microsat, USI Koloniation Systems) to qualify for the contracts.
+	* Clarified contract wording.
+	* Added a dedicated agency to give the contracts.
 
 ##Roadmap
 
