@@ -25,7 +25,6 @@ In addition to the basic "relay around body X" contracts, there are a few extra 
 
 * [**GitHub**](https://github.com/Kerbas-ad-astra/AntennaRange-Relays/releases)
 * CurseForge
-* KerbalStuff
 
 From there, just unzip the "ContractPacks/AntennaRangeRelays" folder into your GameData directory.
 
@@ -62,13 +61,13 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 	* Also updated comments on target planet selection logic to match the actual logic used.
 	* Added a new "CoMoon" contract to be used when the homeworld is a moon.
 * 2015 12 14 (1.2): Antenna pack compatibility
-	* New patches that allow antennas from some addons (Asteroid Day, Hangar, SSR Microsat, USI Koloniation Systems) to qualify for the contracts.
+	* New patches that allow antennas from some addons (Asteroid Day, Hangar, SSR Microsat, USI Kolonization Systems) to qualify for the contracts.
 	* Clarified contract wording.
 	* Added a dedicated agency to give the contracts.
 
 ##Roadmap
 
-As my schedule permits, I'll get this mod released on KerbalStuff and CurseForge in the near future.
+As my schedule permits, I'll get this mod released on CurseForge and CKAN in the near future.
 
 Of course, once stock has antenna ranges, I'll update these contracts to work with the new system.
 
