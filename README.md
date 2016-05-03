@@ -30,7 +30,7 @@ From there, just unzip the "ContractPacks/AntennaRangeRelays" folder into your G
 
 ##Known issues and limitations
 
-Each contract requires specific antenna parts -- the three stock antennas by default, and a few from some mods that I use or have used (Asteroid Day, Hangar, SSR Microsat, and USI Kolonization Systems) via some Module Manager patches.  I'm happy to accept more, but I will only ship patches for mods that ship "natively" with AntennaRange patches themselves and which have antennas whose ranges are long enough to be useful as relays.  If you want to add patches for more addons, you can make them like this (and feel free to share them in this thread):
+Each contract requires specific antenna parts -- the stock antennas by default, and a few from some mods that I use or have used (Hangar and SSR Microsat) via some Module Manager patches.  I'm happy to accept more, but I will only ship patches for mods that ship "natively" with AntennaRange patches themselves and which have antennas whose ranges are long enough to be useful as relays.  If you want to add patches for more addons, you can make them like this (and feel free to share them in this thread):
 
 ```
 @CONTRACT_TYPE[AntennaRangeRelayWhatever] // You could use "AntennaRangeRelay*" to get all contract types at once, but they have different range needs, so think about where your antenna fits.  It's okay to allow longer-range antennas to qualify for shorter-range missions, but definitely not vice-versa!
@@ -64,6 +64,11 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 	* New patches that allow antennas from some addons (Asteroid Day, Hangar, SSR Microsat, USI Kolonization Systems) to qualify for the contracts.
 	* Clarified contract wording.
 	* Added a dedicated agency to give the contracts.
+* 2016 05 03 (1.3): Antenna rearrangement
+	* Moved High Gain Antenna from its own patch, now that the Asteroid Day probe parts are folded into stock.
+		* Because this will cause errors on pre-1.1 installs without Asteroid Day, **this and later versions are no longer compatible with KSP 1.0.x.**
+	* Removed the USI patch, since it was causing exceptions for MKS Lite users.
+	* Compatible through KSP 1.1.2.
 
 ##Roadmap
 
