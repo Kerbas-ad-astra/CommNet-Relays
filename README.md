@@ -69,6 +69,9 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 		* Because this will cause errors on pre-1.1 installs without Asteroid Day, **this and later versions are no longer compatible with KSP 1.0.x.**
 	* Removed the USI patch, since it was causing exceptions for MKS Lite users.
 	* Compatible through KSP 1.1.2.
+* 2016 06 26 (1.3.1): Expression expansion
+	* Refactored targetbody expressions to reduce calculations-per-frame when contracts are generated.
+	* Compatible through KSP 1.1.3.
 
 ##Roadmap
 
