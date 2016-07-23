@@ -14,7 +14,7 @@ In addition to the basic "relay around body X" contracts, there are a few extra 
 
 ##Dependencies
 
-* AntennaRange Relays depends on [**Contract Configurator**](http://forum.kerbalspaceprogram.com/threads/101604-1-0-2-Contract-Configurator-v1-0-4-2015-05-08), version 1.15.3 or later.
+* AntennaRange Relays depends on [**Contract Configurator**](http://forum.kerbalspaceprogram.com/threads/101604-1-0-2-Contract-Configurator-v1-0-4-2015-05-08), version **1.15.3** or later.
 * You will need [**Module Manager**](http://forum.kerbalspaceprogram.com/index.php?/topic/50533-105-module-manager-2613-november-9th/) to patch the contracts for compatibility with other addons.
 
 ##Recommended addons
@@ -72,17 +72,17 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 * 2016 06 26 (1.3.1): Expression expansion
 	* Refactored targetbody expressions to reduce calculations-per-frame when contracts are generated.
 	* Compatible through KSP 1.1.3.
-* 2016 08 XX (1.4): Mission Control
+* 2016 07 23 (1.4): Mission Control
 	* Changes to support Contract Configurator's 1.15.3 update.
 		* Because this depends on variables introduced in CC 1.15.3, **this and later versions are no longer compatible with KSP 1.0.0-2.**
-	* Contracts broken out into individual cfg files (I got tired of scrolling all over the place when editing...)
-		* Because of the level of time and effort I've sunk into this project, not to mention its length, I'm changing the license to the GPL v3 (or later).
+	* Contracts are broken out into individual cfg files (I got tired of scrolling all over the place when editing...)
+	* The license is changed to the GPL v3 (or later).
 
 ##Roadmap
 
 As my schedule permits, I'll get this mod released on CurseForge and CKAN in the near future.
 
-Of course, once stock has antenna ranges, I'll update these contracts to work with the new system.
+Of course, once stock has antenna ranges and relays, I'll update these contracts to work with the new system.
 
 If you have other suggestions, please bring them up in the [**KSP forum thread**](http://forum.kerbalspaceprogram.com/threads/129704-1-0-2-4-Contract-Pack-AntennaRange-Relays-1-0-0-%282015-Jul-24%29) or raise an [**issue**](https://github.com/Kerbas-ad-astra/AntennaRange-Relays/issues) on the GitHub repo!
 
