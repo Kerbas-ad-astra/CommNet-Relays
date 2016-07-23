@@ -14,7 +14,7 @@ In addition to the basic "relay around body X" contracts, there are a few extra 
 
 ##Dependencies
 
-* AntennaRange Relays depends on [**Contract Configurator**](http://forum.kerbalspaceprogram.com/threads/101604-1-0-2-Contract-Configurator-v1-0-4-2015-05-08), version 1.5.1 or later.
+* AntennaRange Relays depends on [**Contract Configurator**](http://forum.kerbalspaceprogram.com/threads/101604-1-0-2-Contract-Configurator-v1-0-4-2015-05-08), version 1.15.3 or later.
 * You will need [**Module Manager**](http://forum.kerbalspaceprogram.com/index.php?/topic/50533-105-module-manager-2613-november-9th/) to patch the contracts for compatibility with other addons.
 
 ##Recommended addons
@@ -72,6 +72,11 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 * 2016 06 26 (1.3.1): Expression expansion
 	* Refactored targetbody expressions to reduce calculations-per-frame when contracts are generated.
 	* Compatible through KSP 1.1.3.
+* 2016 08 XX (1.4): Mission Control
+	* Changes to support Contract Configurator's 1.15.3 update.
+		* Because this depends on variables introduced in CC 1.15.3, **this and later versions are no longer compatible with KSP 1.0.0-2.**
+	* Contracts broken out into individual cfg files (I got tired of scrolling all over the place when editing...)
+		* Because of the level of time and effort I've sunk into this project, not to mention its length, I'm changing the license to the GPL v3 (or later).
 
 ##Roadmap
 
@@ -87,4 +92,4 @@ Thanks to nightingale for Contract Configurator (and for implementing the SemiMa
 
 ##License
 
-AntennaRange Relays is copyright 2015-2016 Kerbas_ad_astra.  Contract configuration files are released under the [**Apache 2.0 license**](https://www.apache.org/licenses/LICENSE-2.0).  All other rights (e.g. the AntennaRange Relays logo) reserved.
+AntennaRange Relays is copyright 2015-2016 Kerbas_ad_astra.  Contract configuration files are released under the [**GPL v3 license**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  All other rights (e.g. the AntennaRange Relays logo and agency definition files) reserved.
