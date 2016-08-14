@@ -92,4 +92,4 @@ Thanks to nightingale for Contract Configurator (and for implementing the SemiMa
 
 ##License
 
-AntennaRange Relays is copyright 2015-2016 Kerbas_ad_astra.  Contract configuration files are released under the [**GPL v3 license**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  All other rights (e.g. the AntennaRange Relays logo and agency definition files) reserved.
+AntennaRange Relays is copyright 2015-2016 Kerbas_ad_astra.  Contract configuration files are released under the [**GPL v3 license**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  Any redistributions must use a different name and folder (per section 7c).  All other rights (e.g. the AntennaRange Relays logo and agency definition files) reserved.
