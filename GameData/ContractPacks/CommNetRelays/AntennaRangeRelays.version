@@ -1,0 +1,31 @@
+{
+     "NAME":"Contract Pack: CommNet Relays",
+     "URL":"https://raw.githubusercontent.com/Kerbas-ad-astra/CommNet-Relays/master/GameData/ContractPacks/CommNetRelays/CommNetRelays.version",
+     "DOWNLOAD":"https://github.com/Kerbas-ad-astra/CommNet-Relays/releases",
+     "GITHUB":{
+         "USERNAME":"Kerbas-ad-astra",
+         "REPOSITORY":"CommNet-Relays",
+         "ALLOW_PRE_RELEASE":false
+     },
+     "VERSION":{
+         "MAJOR":2,
+         "MINOR":0,
+         "PATCH":0,
+         "BUILD":0
+     },
+     "KSP_VERSION":{
+         "MAJOR":1,
+         "MINOR":2,
+         "PATCH":1
+     },
+     "KSP_VERSION_MIN":{
+         "MAJOR":1,
+         "MINOR":2,
+         "PATCH":0
+     },
+     "KSP_VERSION_MAX":{
+         "MAJOR":1,
+         "MINOR":2,
+         "PATCH":1
+     }
+ } 
