@@ -17,10 +17,6 @@ In addition to the basic "relay around body X" contracts, there are a few extra 
 * AntennaRange Relays depends on [**Contract Configurator**](http://forum.kerbalspaceprogram.com/threads/101604-1-0-2-Contract-Configurator-v1-0-4-2015-05-08), version **1.15.3** or later.
 * You will need [**Module Manager**](http://forum.kerbalspaceprogram.com/index.php?/topic/50533-105-module-manager-2613-november-9th/) to patch the contracts for compatibility with other addons.
 
-##Recommended addons
-
-* Although it's not strictly necessary for the contracts to work, there wouldn't be much point in doing these missions without [**AntennaRange**](http://forum.kerbalspaceprogram.com/threads/56440-1-0-AntennaRange-1-8-Enforce-and-Encourage-Antenna-Diversity).
-
 ##Download and install
 
 * [**GitHub**](https://github.com/Kerbas-ad-astra/AntennaRange-Relays/releases)
@@ -74,9 +70,15 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 	* Compatible through KSP 1.1.3.
 * 2016 07 23 (1.4): Mission Control
 	* Changes to support Contract Configurator's 1.15.3 update.
-		* Because this depends on variables introduced in CC 1.15.3, **this and later versions are no longer compatible with KSP 1.0.0-2.**
+		* Because this depends on variables introduced in CC 1.15.3, **this and later versions are no longer compatible with KSP 1.1.0-2.**
 	* Contracts are broken out into individual cfg files (I got tired of scrolling all over the place when editing...)
 	* The license is changed to the GPL v3 (or later).
+* 02016 11 XX (1.5): Constructing New Relays
+	* Renamed to "CommNet Relays" in user-facing fields.  (Internal names/types are still called "AntennaRangeX" to avoid breaking saves.)
+	* Adjusted contracts to require relay antennas.
+	* Adjusted range requirements (also added patches for RSS and OPM).
+	* Removed SSR and Hangar patches -- Hangar parts aren't really appropriate for relay satellites, and SSR hasn't been updated to use the new antenna system.
+	* Added patch for relay antennas from Coatl Aerospace Probes Plus.
 
 ##Roadmap
 
