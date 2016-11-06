@@ -58,16 +58,15 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 	* The license is changed to the GPL v3 (or later).
 * 02016 11 XX (2.0): Constructing New Relays
 	* Renamed to "CommNet Relays".
-	* Reworked contracts to use new CC functions -- specific parts are no longer required, just use enough relay antennas to get the job done.
-	* Max/min apoapses adjusted to CommNet baalnce.
+	* Reworked contracts to use new CC antenna parameter -- specific parts are no longer required, just use enough relay antennas to get the job done.
+	* Adjusted some of the contract parameters to reduce duplication and increase available choices.
+	* Max/min apoapses adjusted to CommNet balance.
 		* Added OPM balance patch.
 	* Added new "Super DSN" contract to build enormous DSN relays.  Why?  Because we can!
 
 ##Roadmap
 
 As my schedule permits, I'll get this mod released on CurseForge and CKAN in the near future.
-
-Of course, once stock has antenna ranges and relays, I'll update these contracts to work with the new system.
 
 If you have other suggestions, please bring them up in the [**KSP forum thread**](http://forum.kerbalspaceprogram.com/threads/129704-1-0-2-4-Contract-Pack-CommNet-Relays-1-0-0-%282015-Jul-24%29) or raise an [**issue**](https://github.com/Kerbas-ad-astra/CommNet-Relays/issues) on the GitHub repo!
 
