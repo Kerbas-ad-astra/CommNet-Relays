@@ -58,8 +58,8 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 		* Because this depends on variables introduced in CC 1.15.3, **this and later versions are no longer compatible with KSP 1.1.0-2.**
 	* Contracts are broken out into individual cfg files (I got tired of scrolling all over the place when editing...)
 	* The license is changed to the GPL v3 (or later).
-* 02017 02 25 (2.0): Constructing New Relays
-	* Renamed to "CommNet Relays".
+* 02017 02 25 (2.0.0): Constructing New Relays
+	* Renamed to "CommNet Relays".  Because it uses the new CommNet system, it is not backwards-compatible with pre-1.2 versions of KSP or 1.x versions of AntennaRange Relays.
 	* Backend logic overhauled to use new CC antenna parameter.  Specific parts are no longer required to complete contracts.
 	* Adjusted some of the contract parameters to reduce duplication and increase available choices.
 	* Max/min apoapses adjusted to CommNet balance.
