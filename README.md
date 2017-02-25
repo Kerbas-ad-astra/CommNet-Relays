@@ -6,15 +6,17 @@ Ever wanted to get money for setting up CommNet network relays?  Your dreams can
 
 ##Features
 
-**CommNet Relays** is a contract pack for Contract Configurator which gives you contracts for each body in the solar system (besides the homeworld, of course).  The contract is to send a satellite with an appropriate dish into an orbit low enough that surface missions can use the whip antenna instead of having to pack a big dish (so long as a relay is overhead, of course).  Missions to your homeworld's moons or the inner planets (Duna/Mars) are required to use an RA-15 or equivalent, while missions to outer planets or moons will need an RA-100 or equivalent.  You also have to have your tracking station upgraded to the appropriate level.
+**CommNet Relays** is a contract pack for Contract Configurator which gives you contracts for each body in the solar system (besides the homeworld, of course).  The contract is to send a satellite with an appropriate dish or combination of dishes into an orbit low enough that surface missions can use the whip antenna instead of having to pack a big dish (so long as a relay is overhead, of course).  Missions to your homeworld's moons are required to use an HG-5 or equivalent, missions to the inner planets (Duna/Mars and inward) are required to use an RA-15 or equivalent, while missions to outer planets or moons will need an RA-100 or equivalent.  You also have to have your tracking station upgraded to the appropriate level.
 
-The contracts are generated based on the lists of planets and moons in your solar system, so you can install Outer Planets or Real Solar System or whatever you want, and the contracts will automatically adjust themselves accordingly.  Be aware that the contracts are based on stock CommNet ranges, which are in turn based on the stock solar system.  I've got some patches that will modify ranges to adapt to Outer Planets and Real Solar System, but (a) they are patched to assume particular balance choices for antennas themselves and (b) at the end of the day, they're just lower bounds -- check your link budgets before launching.
+The contracts are generated based on the lists of planets and moons in your solar system, so you can install Outer Planets or Real Solar System or whatever you want, and the contracts will automatically adjust themselves accordingly.  Additionally, the antenna requirement does not depend on specific parts, but on the combined antenna power of the relay, so it's compatible with all modded antennas automatically.  If you really wanted to (and had a computer that could handle it), you could build a relay with 20,000 HG-5 antennas for Jool missions.
+
+(That said, be aware that the contract range requirements are based on stock CommNet ranges, which are in turn based on the stock solar system.  I've got some patches that will modify ranges to adapt to Outer Planets and Real Solar System, but those patches assume particular balance choices for antennas and the solar system.  At the end of the day, the contract requirement is just a lower bound -- check your link budgets before launch.)
 
 In addition to the basic "relay around body X" contracts, there are a few extra contracts to help improve uptime around the network.  You may receive contracts to place relays in highly-inclined, highly-elliptical orbits around the gas giants, so that missions to their moons or in low orbits can stay in contact around them, as well as contracts to place relays in solar orbits to keep contact with probes going behind the Sun (and also the homeworld's parent body, if you're using an alternate solar system in which the homeworld is a moon).
 
 ##Dependencies
 
-* CommNet Relays depends on [**Contract Configurator**](http://forum.kerbalspaceprogram.com/threads/101604-1-0-2-Contract-Configurator-v1-0-4-2015-05-08), version **1.21.2** or later.
+* CommNet Relays depends on [**Contract Configurator**](http://forum.kerbalspaceprogram.com/threads/101604-1-0-2-Contract-Configurator-v1-0-4-2015-05-08), version **1.22.0** or later.
 * You will need [**Module Manager**](http://forum.kerbalspaceprogram.com/index.php?/topic/50533-105-module-manager-2613-november-9th/) to patch the contracts for compatibility with other addons.
 
 ##Download and install
@@ -56,13 +58,13 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 		* Because this depends on variables introduced in CC 1.15.3, **this and later versions are no longer compatible with KSP 1.1.0-2.**
 	* Contracts are broken out into individual cfg files (I got tired of scrolling all over the place when editing...)
 	* The license is changed to the GPL v3 (or later).
-* 02016 11 XX (2.0): Constructing New Relays
+* 02017 02 25 (2.0): Constructing New Relays
 	* Renamed to "CommNet Relays".
-	* Backend logic overhauled to use new CC antenna parameter.  Specific parts are no longer required to complete contracts (though unlocking the stock relays is required for them to generate); just use enough relay antennas to get the job done (20,000 HG-5 antennas would qualify for a Jool relay).
+	* Backend logic overhauled to use new CC antenna parameter.  Specific parts are no longer required to complete contracts.
 	* Adjusted some of the contract parameters to reduce duplication and increase available choices.
 	* Max/min apoapses adjusted to CommNet balance.
 		* Adjusted RSS patch.
-		* Added OPM patch, best used with Custom Barn Kit.
+		* Added OPM patch.
 	* Added new "Super DSN" contract to build enormous DSN relays.  Why?  Because we can!
 
 ##Roadmap
@@ -73,8 +75,8 @@ If you have other suggestions, please bring them up in the [**KSP forum thread**
 
 ##Credits
 
-Thanks to nightingale for Contract Configurator (and for implementing the SemiMajorAxis() method at my request) and toadicus for CommNet!
+Many thanks to nightingale for Contract Configurator (and for implementing the SemiMajorAxis() method at my request, and accepting my HasAntenna parameter), toadicus for AntennaRange (which inspired the initial revision of this contract pack), and Squad for implementing CommNet!
 
 ##License
 
-CommNet Relays is copyright 2015-2016 Kerbas_ad_astra.  Contract configuration files are released under the [**GPL v3 license**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  Any redistributions must use a different name and folder (per section 7c).  All other rights (e.g. the CommNet Relays logo and agency definition files) reserved.
+CommNet Relays is copyright 2015-2017 Kerbas_ad_astra.  Contract configuration files are released under the [**GPL v3 license**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  Any redistributions must use a different name and folder (per section 7c).  All other rights (e.g. the CommNet Relays logo and agency definition files) reserved.
