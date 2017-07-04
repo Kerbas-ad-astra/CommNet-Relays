@@ -67,7 +67,7 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 		* Added OPM patch.
 	* Added new "Super DSN" contract to build enormous DSN relays.  Why?  Because we can!
 * 02017 07 04 (2.0.1): Hiccup Suppression
-	* Adjusted facility requirements to prevent random failures when entering the Tracking Station.
+	* Adjusted facility requirements to suppress random failures when entering the Tracking Station.
 
 ##Roadmap
 
