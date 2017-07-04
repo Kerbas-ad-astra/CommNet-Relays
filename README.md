@@ -66,8 +66,12 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 		* Adjusted RSS patch.
 		* Added OPM patch.
 	* Added new "Super DSN" contract to build enormous DSN relays.  Why?  Because we can!
+* 02017 07 04 (2.0.1): Hiccup Suppression
+	* Adjusted facility requirements to prevent random failures when entering the Tracking Station.
 
 ##Roadmap
+
+Add support for KSP localization system.
 
 As my schedule permits, I'll get this mod released on CurseForge and CKAN in the near future.
 
