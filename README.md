@@ -68,6 +68,8 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 	* Added new "Super DSN" contract to build enormous DSN relays.  Why?  Because we can!
 * 02017 07 04 (2.0.1): Hiccup Suppression
 	* Adjusted facility requirements to suppress random failures when entering the Tracking Station.
+* 02017 09 04 (2.0.2): De-Proliferation
+	* Added 'maxSimultaneous' values for all contracts.
 
 ##Roadmap
 
