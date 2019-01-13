@@ -70,12 +70,12 @@ If you find any other issues, please let me know in the [**KSP forum thread**](h
 	* Adjusted facility requirements to suppress random failures when entering the Tracking Station.
 * 02017 09 04 (2.0.2): De-Proliferation
 	* Added 'maxSimultaneous' values for all contracts.
+* 02019 01 13 (2.1.0): Global Coverage
+	* Added support for localization (so the minimum KSP version supported is now 1.3.0).  Added 'title' field to agent to reduce log spam.
 
 ##Roadmap
 
-Add support for KSP localization system.
-
-As my schedule permits, I'll get this mod released on CurseForge and CKAN in the near future.
+As my schedule permits, I'll get this mod released on CurseForge and CKAN.
 
 If you have other suggestions, please bring them up in the [**KSP forum thread**](http://forum.kerbalspaceprogram.com/threads/129704-1-0-2-4-Contract-Pack-CommNet-Relays-1-0-0-%282015-Jul-24%29) or raise an [**issue**](https://github.com/Kerbas-ad-astra/CommNet-Relays/issues) on the GitHub repo!
 
@@ -85,4 +85,4 @@ Many thanks to nightingale for Contract Configurator (and for implementing the S
 
 ##License
 
-CommNet Relays is copyright 2015-2017 Kerbas_ad_astra.  Contract configuration files are released under the [**GPL v3 license**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  Any redistributions must use a different name and folder (per section 7c).  All other rights (e.g. the CommNet Relays logo and agency definition files) reserved.
+CommNet Relays is copyright 2015-2019 Kerbas_ad_astra.  Contract configuration files are released under the [**GPL v3 license**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  Any redistributions must use a different name and folder (per section 7c).  All other rights (e.g. the CommNet Relays logo and agency definition files) reserved.
